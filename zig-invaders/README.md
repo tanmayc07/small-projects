@@ -5,7 +5,6 @@ Built by following the awesome playlist - https://www.youtube.com/playlist?list=
 For running locally:
 ```
 ~ cd zig-invaders
-
 ~ zig build run
 
 // note - Uses Zig 0.15.2
