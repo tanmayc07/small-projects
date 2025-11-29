@@ -101,11 +101,11 @@ const Player = struct {
     }
 
     pub fn update(self: *@This()) void {
-        if (rl.isKeyDown(rl.KeyboardKey.right)) {
+        if (rl.isKeyDown(rl.KeyboardKey.right) or rl.isKeyDown(rl.KeyboardKey.d)) {
             self.position_x += self.speed;
         }
 
-        if (rl.isKeyDown(rl.KeyboardKey.left)) {
+        if (rl.isKeyDown(rl.KeyboardKey.left) or rl.isKeyDown(rl.KeyboardKey.a)) {
             self.position_x -= self.speed;
         }
 
