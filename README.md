@@ -12,6 +12,7 @@ The primary objective is to **foster continuous learning**, demonstrate proficie
 | :--- | :--- | :--- |
 | **[Rust Calculator](rust-calculator/README.md)** | **Rust** | A command-line utility implementing basic arithmetic operations (addition, subtraction, multiplication, division). Implemented shunting yard algorithm for processing the string input expressions. |
 | **[Zig Invaders](zig-invaders/README.md)** | **Zig** | A clone of the classic space invaders game built using Zig programming language and raylib library. |
+| **[C Hexdump](C-hexdump/README.md)** | **C** | Just a basic hexdump program in C. |
 
 ---
 
